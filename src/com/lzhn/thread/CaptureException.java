@@ -2,6 +2,9 @@ package com.lzhn.thread;
 
 import java.util.concurrent.ThreadFactory;
 
+/**
+ * 捕获非受检异常
+ */
 class MyUncaughtExceptionHandler implements Thread.UncaughtExceptionHandler {
 
 	@Override
